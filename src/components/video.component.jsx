@@ -5,7 +5,7 @@ export default function Video({ video }) {
   return (
       <>
         <img src={thumbnails.high.url} alt={`Thumbnail clip of ${title}`} />
-        <h3>{ title }</h3>
+        <h3 className="text-xl">{ title }</h3>
         <p>{ description }</p>
       </>
     )
